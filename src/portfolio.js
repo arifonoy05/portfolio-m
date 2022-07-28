@@ -1,18 +1,18 @@
-import aboutpic from "./components/Access/mePhoto.jpg"
+import aboutpic from './components/Access/mePhoto.jpg'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://morganbb104.github.io/HW_20_Portfolio_withReact/',
+  homepage: '/',
   title: 'JS.',
 }
 
 const about = {
-  photo:aboutpic,
+  photo: aboutpic,
   // all the properties are optional - can be left empty or deleted
-  name: 'CHENG CHIEN',
-  role: 'Full stack developer',
+  name: 'Marium Sultana',
+  role: 'Reporter',
   description:
-    'UW bootcamp student.originally from Taiwan now living in Seattle, USA. highly interested in cutting edge technology, coding and biology.',
+    'an MSJ Graduate from AIUB, worked at DhakaTribune, currently a Junior reporter ar BDNews24',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/cheng-chien-huang-912467152/',
@@ -27,7 +27,12 @@ const projects = [
     name: 'Movie Tracker',
     description:
       'As users, we see a page that lets anyone look for the movies from the search bar by key words, and obtaining the actual or similar movies with their years, actors, rating, and description information by recommendation. In addition, they can search the nearby theaters from where they currently are located.',
-    stack: ['localstorage', 'Openweather API', 'Google Map API','Movie Database API'],
+    stack: [
+      'localstorage',
+      'Openweather API',
+      'Google Map API',
+      'Movie Database API',
+    ],
     sourceCode: 'https://github.com/Mike-C-Sanders/Movie-Tracker',
     livePreview: 'https://mike-c-sanders.github.io/Movie-Tracker/',
   },
@@ -35,7 +40,7 @@ const projects = [
     name: 'Event Planner',
     description:
       'Event Planner was designed with the partier in mind, the one who wants to find fine dinning or a friend to have a good time. Event Planner is the easiest way for anyone to find an event to attend, create or host your own event or browse whats happening in your local area.',
-    stack: ['swiper.js', 'npm', 'jawsdb','handlebars','express','nodejs'],
+    stack: ['swiper.js', 'npm', 'jawsdb', 'handlebars', 'express', 'nodejs'],
     sourceCode: 'https://github.com/Morganbb104/Event_Planner_project2',
     livePreview: 'https://obscure-chamber-98928.herokuapp.com/',
   },
